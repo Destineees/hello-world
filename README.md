@@ -9,7 +9,7 @@ good world
 
 ## Happily learning new skills
 
-### ### it is fun
+### it is fun
 
 I am loving Code Fellows
 
