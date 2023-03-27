@@ -1,0 +1,10 @@
+body { background-color:#f3cf8c;}
+Header{ background-color:#AEA489; color:white; }
+
+main {color:white; display: block;}
+
+#hero { width: fit-content;}
+.lower { display: inline-block;}
+
+li {color:black;}
+
