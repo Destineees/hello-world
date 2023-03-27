@@ -1,10 +1,13 @@
 body { background-color:#f3cf8c;}
-Header{ background-color:#AEA489; color:white; display: inline-block; }
+
+header{ display: inline-block;
+        background-color:#AEA489;
+        color:white;  }
 
 main {color:white; }
 
-#hero { width:900; height: 600;}
-.lower { display: inline-block;}
+#hero { width:50%;}
+.lower { width:80%; display: inline-block;}
 
 li {color:black;}
 
