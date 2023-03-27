@@ -6,7 +6,8 @@ header{ display: inline-block;
 
 main {color:white; }
 
-#hero { width:50%;}
+#hero{ width: auto;}
+
 .lower { width:80%; display: inline-block;}
 
 li {color:black;}
