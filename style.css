@@ -1,14 +1,12 @@
 body { background-color:#f3cf8c;}
 
-header{ display: inline-block;
-        background-color:#AEA489;
-        color:white;  }
+header{ display: inline-block;  background-color:#AEA489;}
 
 main {color:white; }
 
-#hero { width: 250px; height:200px;}
+#hero { width: 550px; height:500px;}
 
-.lower { width:80%; display: inline-block;}
+.lower { display: inline-block;}
 
 li {color:black;}
 
