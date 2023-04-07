@@ -2,9 +2,16 @@ body
 { 
     background-color:#f3cf8c;
 }
+h1{
+    text-align: center;
+    color: indigo;
+    border: 10px solid black;
+    background-color: white;
+    opacity: .5;
+}
 main 
 {
-    color:white; 
+    color:black; 
 }
 .nav {
     background-color: black;
@@ -14,11 +21,32 @@ main
 }
 .nav li {
     display: inline-block;
+    max-width: 30%;
     font-size: medium;
     padding:0%;
 }
 #hero 
 {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
+    
+}
+.line {
+    display: inline-flexbox;
+    max-width: 50%;
+    max-height:auto;
+    border: 3px dashed black;
+    position: relative;
+   text-align: center;
+   color: white;
+  
+}
+.line li {
+    
+    color: cyan;
+    text-decoration: none;
+}
+.line img {
+    width: 300px;
+    height: 300px;
 }
