@@ -35,11 +35,7 @@ main
     display: inline-block;
     max-width: 100%;
     max-height:auto;
-    border: 3px dashed black;
-    position: relative;
-   text-align: center;
-   color: white;
-  
+    border: 3px solid white;
 }
 .line li {
     
