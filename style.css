@@ -21,24 +21,20 @@ main
 }
 .nav li {
     display: inline-block;
-    max-width: 80%;
+    max-width: 50%;
     font-size: medium;
     padding:0%;
 }
 #hero 
 {
-    max-width:100%;
-    height: auto;
-    
+    display: flex;
 }
 .line {
     display: inline-block;
-    max-width: 100%;
-    max-height:auto;
+    max-width:30%;
     border: 3px solid white;
 }
 .line li {
-    
     color: indigo;
     text-decoration: none;
 
