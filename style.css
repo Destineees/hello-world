@@ -1,12 +1,24 @@
-body { background-color:#f3cf8c;}
-
-header{ display: inline-block;  background-color:#AEA489;}
-
-main {color:white; }
-
-#hero { width: 550px; height:500px;}
-
-.lower { display: inline-block;}
-
-li {color:black;}
-
+body 
+{ 
+    background-color:#f3cf8c;
+}
+main 
+{
+    color:white; 
+}
+.nav {
+    background-color: black;
+    text-align:center;
+    margin: auto;
+    padding:0;
+}
+.nav li {
+    display: inline-block;
+    font-size: medium;
+    padding:0%;
+}
+#hero 
+{
+    max-width: 100%;
+    height: auto;
+}
