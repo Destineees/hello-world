@@ -27,7 +27,9 @@ main
 }
 #hero 
 {
-    display: flex;
+    display: inline-block;
+    max-width: 70%;
+
 }
 .line {
     display: inline-block;
