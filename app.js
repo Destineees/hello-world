@@ -1,5 +1,4 @@
-
-
+function Yousername(){
     let userName = prompt("Hello, What is your name?");
     //get user name 
     document.write(" Hi"+ userName + " Welcome to Seattle Beaches! Time to explore!");
@@ -18,7 +17,11 @@
         alert("Glad you found this page!");
         }
 
-function youserBeach()
+}
+
+Yousername();
+
+function  youserBeach()
 {
     let userBeach = prompt("Do you have a favorite Beach?");
     document.write( userName + "LOVES" + youserBeach );
