@@ -25,3 +25,5 @@ function youserBeach()
     document.write( userName + "LOVES" + youserBeach );
 
 }
+HelloYouser();
+youserBeach();
