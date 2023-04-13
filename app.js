@@ -51,8 +51,8 @@ function vistBeach()
     }
   for ( let i = 0; i < userBeachVisit ; i++)
   {
-      alert.log("add image later");
-      alert.log("visit #" + i);
+      alert("add image later");
+      alert("visit #" + i);
   }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
