@@ -41,19 +41,19 @@ function  youserBeach()
     //check for numbers greater than 3 and below 0
 
     confirm("Your favorite beach is " + choiceBeach);
+    return choiceBeach;
 }
 //call on button click youserBeach();
 function vistBeach()
 {
-    picBeach();
     let userBeachVisit = prompt("How many times do you want to visit "+ choiceBeach +" ? Enter a number between 0-10");//get beach visits
     while(userBeachVisit == "" || userBeachVisit >11)
     {
      userBeachVisit = prompt("Please enter a number between 0-10");
     }
-  for ( let i = 0; i < userBeachVisit ; i++)
-  {
+    for ( let i = 0; i < userBeachVisit ; i++)
+    {
       document.write("test");
-  }// show image number of times entered for beach visit
+    }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
