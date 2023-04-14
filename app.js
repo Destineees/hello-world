@@ -43,16 +43,6 @@ function  youserBeach()
     confirm("Your favorite beach is " + choiceBeach);
 }
 //call on button click youserBeach();
-let beachPic;
-function picBeach()
-{
-    if (choiceBeach = "Alki Beach")
-    beachPic = <img src="Images/Alki.jpg" ></img>;
- if (choiceBeach = "Discovery Park Beach")
-    beachPic = <img src="Images/Discovery.JPG" alt="Bird standing at Discovery Park Beach" />;
- if (choiceBeach = "Pocket Beach")
-   beachPic = <img src="Images/Pocket1.jpg"alt="Entrance to Pocket Beach" />;
-}
 function vistBeach()
 {
     picBeach();
