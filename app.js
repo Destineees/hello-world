@@ -17,9 +17,10 @@
     }//greeting
     }
 youserName();
+let choiceBeach = "";
 function  youserBeach()
 {
-    let choiceBeach = "";
+    
     let userBeach = prompt("Enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
     //get user choice for favorite beach
     while(userBeach == "")
@@ -42,17 +43,26 @@ function  youserBeach()
     confirm("Your favorite beach is " + choiceBeach);
 }
 //call on button click youserBeach();
+let beachPic;
+function picBeach()
+{
+    if (choiceBeach = "Alki Beach")
+    beachPic = <img src="Images/Alki.jpg" ></img>;
+ if (choiceBeach = "Discovery Park Beach")
+    beachPic = <img src="Images/Discovery.JPG" alt="Bird standing at Discovery Park Beach"  />;
+ if (choiceBeach = "Pocket Beach")
+   beachPic = <img src="Images/Pocket1.jpg"alt="Entrance to Pocket Beach" />;
+}
 function vistBeach()
 {
-  let userBeachVisit = prompt("How many times do you want to visit the beach? Enter a number between 0-10");//get beach visits
-  while(userBeachVisit == "" || userBeachVisit >11)
+    let userBeachVisit = prompt("How many times do you want to visit "+ choiceBeach +" ? Enter a number between 0-10");//get beach visits
+    while(userBeachVisit == "" || userBeachVisit >11)
     {
      userBeachVisit = prompt("Please enter a number between 0-10");
     }
   for ( let i = 0; i < userBeachVisit ; i++)
   {
-      alert("add image later");
-      alert("visit #" + i);
+      document.write(beachPic);
   }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
