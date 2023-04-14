@@ -53,7 +53,7 @@ function vistBeach()
     }
     for ( let i = 0; i < userBeachVisit ; i++)
     {
-      document.write("test");
+      document.write(<img src="Images/Pocket1.jpg"alt="Entrance to Pocket Beach" />);
     }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
