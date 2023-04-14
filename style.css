@@ -50,7 +50,13 @@ main
 }
 .button1 {
     display: block;
+    width:max-content;
+    height: auto;
+    background-color: aliceblue;
 }
-.button2{
+.button2  {
     display: block;
+    width:max-content;
+    height: auto;
+    background-color: orange;
 }
