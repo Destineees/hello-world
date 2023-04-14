@@ -49,12 +49,13 @@ function picBeach()
     if (choiceBeach = "Alki Beach")
     beachPic = <img src="Images/Alki.jpg" ></img>;
  if (choiceBeach = "Discovery Park Beach")
-    beachPic = <img src="Images/Discovery.JPG" alt="Bird standing at Discovery Park Beach"  />;
+    beachPic = <img src="Images/Discovery.JPG" alt="Bird standing at Discovery Park Beach" />;
  if (choiceBeach = "Pocket Beach")
    beachPic = <img src="Images/Pocket1.jpg"alt="Entrance to Pocket Beach" />;
 }
 function vistBeach()
 {
+    picBeach();
     let userBeachVisit = prompt("How many times do you want to visit "+ choiceBeach +" ? Enter a number between 0-10");//get beach visits
     while(userBeachVisit == "" || userBeachVisit >11)
     {
@@ -62,7 +63,7 @@ function vistBeach()
     }
   for ( let i = 0; i < userBeachVisit ; i++)
   {
-      document.write(beachPic);
+      document.write("test");
   }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
