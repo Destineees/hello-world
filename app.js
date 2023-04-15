@@ -18,7 +18,9 @@ let x;
         alert("Glad you found this page!");
     }//greeting
     }
+
 youserName();
+
 function  youserBeach()
 {
     
@@ -38,7 +40,7 @@ function  youserBeach()
       choiceBeach = "Pocket Beach";
       x = document.getElementById(userBeach);
     //check for beach options
-    if (userBeach = 0)
+    if (userBeach == 0)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
     if (userBeach >= 3)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
@@ -55,10 +57,10 @@ function visitBeach()
     {
      userBeachVisit = prompt("Please enter a number between 0-10");
     }
-    
+
     for ( let i = 0; i < userBeachVisit ; i++)
     {
-      document.write(i)
+      document.write(i);
       document.write(x);
     }// show image number of times entered for beach visit
 
