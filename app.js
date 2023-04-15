@@ -16,8 +16,9 @@
         alert("Glad you found this page!");
     }//greeting
     }
- youserName();
-let choiceBeach = "";
+youserName();
+let choiceBeach;
+let x;
 function  youserBeach()
 {
     
@@ -29,10 +30,13 @@ function  youserBeach()
     }//check for blank response 
     if (userBeach == 1)
        choiceBeach = "Alki Beach";
+       x = document.getElementById('1');
     if (userBeach == 2)
     choiceBeach = "Discovery Park Beach";
+    x = document.getElementById('2');
     if (userBeach == 3)
       choiceBeach = "Pocket Beach";
+      x = document.getElementById('3');
     //check for beach options
     if (userBeach = 0)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
@@ -44,7 +48,7 @@ function  youserBeach()
     return choiceBeach;
 }
 //call on button click youserBeach();
-function vistBeach()
+function visitBeach()
 {
     let userBeachVisit = prompt("How many times do you want to visit "+ choiceBeach +" ? Enter a number between 0-10");//get beach visits
     while(userBeachVisit == "" || userBeachVisit >11)
@@ -53,7 +57,9 @@ function vistBeach()
     }
     for ( let i = 0; i < userBeachVisit ; i++)
     {
-      document.write(<img src="Images/Pocket1.jpg"alt="Entrance to Pocket Beach" />);
+     
+      document.write(x);
+
     }// show image number of times entered for beach visit
 }
 //vistBeach();//call on button click
