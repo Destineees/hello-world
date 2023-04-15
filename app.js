@@ -32,13 +32,13 @@ function  youserBeach()
     }//check for blank response 
     if (userBeach == 1)
        choiceBeach = "Alki Beach";
-       x = document.getElementById(userBeach);
+       x = document.getElementById("1");
     if (userBeach == 2)
     choiceBeach = "Discovery Park Beach";
-    x = document.getElementById(userBeach);
+    x = document.getElementById("2");
     if (userBeach == 3)
       choiceBeach = "Pocket Beach";
-      x = document.getElementById(userBeach);
+      x = document.getElementById("3");
     //check for beach options
     if (userBeach == 0)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
