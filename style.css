@@ -54,9 +54,3 @@ main
     height: auto;
     background-color: aliceblue;
 }
-.button2  {
-    display: block;
-    width:max-content;
-    height: auto;
-    background-color: orange;
-}
