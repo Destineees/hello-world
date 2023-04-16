@@ -61,6 +61,7 @@ function visitBeach()
     for ( let i = 0; i < userBeachVisit ; i++)
     {
       document.write(i);
+      document.write(x);
       
     }// show image number of times entered for beach visit
 
