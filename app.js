@@ -48,7 +48,7 @@ function  youserBeach()
 
     alert("Your favorite beach is " + choiceBeach);
 
-    let userBeachVisit = prompt("Do you want to go to the beach? Enter a number between 0-10");//get beach visits
+    let userBeachVisit = prompt("How many times do you want to go to a beach? Enter a number between 0-10");//get beach visits
     
     while(userBeachVisit == "" || userBeachVisit >11)
     {
@@ -58,7 +58,7 @@ function  youserBeach()
     for ( let i = 0; i < userBeachVisit ; i++)
     {
       document.write(i)
-      document.write("<img src='Images/alki2.jpg' alt='Seattle skyline from Alki Beach'> Beach visit </img>");
+      document.write("<img class = 'blast' src='Images/alki2.jpg' alt='Seattle skyline from Alki Beach'> Thanks for visiting! </img>");
 
     }// show image number of times entered for beach visit
 

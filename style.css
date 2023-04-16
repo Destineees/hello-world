@@ -54,3 +54,8 @@ main
     height: auto;
     background-color: aliceblue;
 }
+.blast {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
