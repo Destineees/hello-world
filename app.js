@@ -58,7 +58,7 @@ function  youserBeach()
     for ( let i = 0; i < userBeachVisit ; i++)
     {
       document.write(i)
-      document.write.style.display.inline-block.width50px("<img src='Images/alki2.jpg' alt='Seattle skyline from Alki Beach'> Thanks for visiting! </img>");
+      document.write("<img src='Images/alki2.jpg' alt='Seattle skyline from Alki Beach'> Thanks for visiting! </img>");
     
     }// show image number of times entered for beach visit
 } //call on button click youserBeach();
