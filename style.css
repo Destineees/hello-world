@@ -44,6 +44,7 @@ main
 .line li {
     color: rgb(48, 41, 53);
     text-decoration: none;
+    text-align: center;
     font:sans-serif;
 
 }
