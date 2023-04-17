@@ -14,16 +14,16 @@ main
     color:black; 
 }
 .nav {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-align:center;
     margin: auto;
     padding:0;
 }
 .nav li {
     display: inline-block;
-    max-width: 50%;
-    font-size: medium;
-    padding:0%;
+    max-width: auto;
+    font-size: Large;
+    padding:10%;
 }
 #hero 
 {
@@ -52,7 +52,7 @@ main
     display: block;
     width:max-content;
     height: auto;
-    background-color: aliceblue;
+    background-color: rgb(219, 184, 112);
 }
 .blast {
     display: inline-block;
