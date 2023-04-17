@@ -6,7 +6,8 @@ h1{
     text-align: center;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     color: rgb(1, 67, 5);
-    border: 10px solid rgb(10, 161, 95);
+    border-radius: 400px solid rgb(10, 161, 95);
+    height: 100px;
     background-color: rgb(239, 172, 106);
     opacity: .5;
 }
@@ -24,8 +25,8 @@ main
     display: inline-block;
     max-width: auto;
     font-size: Large;
-    padding:10%;
-    font:sans-serif;
+    padding:5%;
+    font: arial bold;
 }
 #hero 
 {
@@ -37,7 +38,7 @@ main
 }
 .line {
     display: inline-block;
-    max-width:auto;
+    max-width:25%;
     max-height: auto;
     border: 5px solid white;
 }
@@ -49,9 +50,9 @@ main
 
 }
 .line img {
-    border-radius: 150px;
-    width: 300px;
-    height: 300px;
+    border-radius: 100px;
+    width: 2500px;
+    height: 2500px;
 }
 .button1 {
     display: inline-block;
