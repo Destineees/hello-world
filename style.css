@@ -38,8 +38,8 @@ main
 }
 .line {
     display: inline-block;
-    max-width:25%;
-    max-height:50%;
+    max-width:30%;
+    max-height:auto;
     border: solid 5px white;
     
 }
@@ -50,7 +50,8 @@ main
     font:sans-serif;
 }
 .line img {
-    border-radius: 90px;
+    
+    border-radius: 150px;
     height: 300px;
     width: 300px;
 
