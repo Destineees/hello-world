@@ -40,19 +40,17 @@ main
     display: inline-block;
     max-width:25%;
     max-height: auto;
-    border: 5px solid white;
+    
 }
 .line li {
     color: rgb(48, 41, 53);
     text-decoration: none;
     text-align: center;
     font:sans-serif;
-
 }
 .line img {
-    border-radius: 100px;
-    width: 2500px;
-    height: 2500px;
+    border-radius: 90px;
+    position: relative;
 }
 .button1 {
     display: inline-block;
