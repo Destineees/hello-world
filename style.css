@@ -38,11 +38,11 @@ main
 .line {
     display: inline-block;
     max-width:30%;
-    max-height: fit-content;
-    border: 3px solid white;
+    max-height: 50%;
+    border: 5px solid white;
 }
 .line li {
-    color: rgb(221, 199, 237);
+    color: rgb(81, 69, 90);
     text-decoration: none;
 
 }
