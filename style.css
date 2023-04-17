@@ -38,7 +38,7 @@ main
 }
 .line {
     display: inline-block;
-    max-width:25%;
+    max-width:auto;
     max-height: auto;
     
 }
@@ -49,8 +49,8 @@ main
     font:sans-serif;
 }
 .line img {
-    border-radius: 90px;
-    position: relative;
+    border-radius: 30px;
+    position: center;
 }
 .button1 {
     display: inline-block;
