@@ -42,7 +42,7 @@ function  youserBeach()
     //check for beach options
     if (userBeach == 0)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
-    if (userBeach >= 3)
+    if (userBeach > 3)
    prompt("Please enter the number of your favorite beach 1:Alki Beach 2:Discovery Park Beach 3:Pocket Beach"); 
     //check for numbers greater than 3 and below 0
 
@@ -58,6 +58,7 @@ function  youserBeach()
     for ( let i = 0; i < userBeachVisit ; i++)
     {
       document.write(i)
-      document.write("<img src='Images/alki2.jpg' width=100px height=100px alt='Seattle skyline from Alki Beach'> Thanks for visiting! </img>");    
+      document.write("<img src='Images/alki2.jpg' alt='Seattle skyline from Alki Beach'> Thanks for visiting! </img>")
+          
     }// show image number of times entered for beach visit
 } //call on button click youserBeach();
